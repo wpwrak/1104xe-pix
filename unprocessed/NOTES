@@ -91,3 +91,39 @@ PCB removal
 front can
 	6614	inside
 	6615	outside
+
+main PCB, back
+	6622	overview
+	6627	"HDMI", front USB
+	6630	opamp (U2)
+		http://www.analog.com/media/en/technical-documentation/data-sheets/AD8510_8512_8513.pdf
+	6634	opamp (U65)
+		http://www.ti.com/lit/ds/symlink/tlc272.pdf
+	6636	VCO, Schmitt-trigger (U15, U17)
+		http://www.analog.com/en/products/adf4360-7.html
+		http://www.ti.com/lit/ds/symlink/sn74lvc2g17.pdf
+	6638	LDO (U44)
+		http://ww1.microchip.com/downloads/en/DeviceDoc/20005720A.pdf
+	6641	NAND Flash (U25) 29F2G08ABAEA, 256M x 8b
+		https://datasheet.octopart.com/MT29F2G16ABAEAWP%3AE-Micron-datasheet-11549997.pdf
+
+front panel, inside
+	6647	overview
+	6654	shift 3x, analog mux 2x, dual counter (U1, U2, U3, U6, U5, U4)
+		http://www.ti.com/lit/ds/symlink/sn74hc595.pdf
+		https://assets.nexperia.com/documents/data-sheet/74HC_HCT4051.pdf
+		http://www.ti.com/product/SN74HC393
+	6658	display panel
+		https://www.olimex.com/Products/Retired/A13-LCD7-TS/resources/S700-AT070TN92.pdf
+		more resources:
+		https://www.buydisplay.com/default/7-inch-lcd-screen-tft-display-module-wvga-800x480-at070tn90-at070tn92
+
+main control panel
+	6661	knobs
+	6672	button sheet
+	6675	main panel PCB, front
+
+bottom panel
+	6678	PCB back
+	6681	button sheet
+	6684	PCB front
