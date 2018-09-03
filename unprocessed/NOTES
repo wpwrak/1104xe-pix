@@ -1,0 +1,93 @@
+opening
+
+	case
+	6436	top screws (under handle)
+	6437	(alternate)
+	6438	bottom screws (at feet)
+
+	can
+	6444	latches, top screws
+	6445	bottom screws
+	6448	right screw
+	6450	left screw
+	6452	rear BNC nut
+	6553	rear BNC washer
+
+	connections to PSU
+	6455	connectors
+	6457	oops !
+
+PCB main, zynq
+	6460	overview
+
+	zynq reset/power
+	6468	reset (U43)
+		http://www.analog.com/media/en/technical-documentation/data-sheets/ADM823_824_825.pdf
+	6471	PMU (U2)	http://www.ti.com/product/TPS65400
+	6474	DDR reg (U66)	http://www.ti.com/product/LP2998
+
+	more power
+	6476	LDO (U54, ?)
+		https://www.mouser.com/datasheet/2/146/SPX1117_DS_R210_082411-52780.pdf
+	6478	ADC (U11)
+		http://www.analog.com/en/products/hmcad1511.html
+	6481	clock buffer (U57)
+		http://www.ti.com/lit/ds/symlink/cdclvp1102.pdf
+	6485	main DRAM (U26) 128M x 16b
+		https://www.avnet.com/shop/us/products/samsung/k4b2g1646f-byma000-3074457345632925668/
+	6493	JTAG, UART, USB (U36, U29, U28)
+		https://www.microchip.com/wwwproducts/en/USB3320
+	6500	capture RAM (U31, U32) 2 x 64M x 16b
+		https://www.avnet.com/shop/us/products/samsung/k4b1g1646g-bch9-3074457345627374796/
+	6502	Ether PHY, USB hub (U30, U34)
+		(see below)
+		https://www.microchip.com/wwwproducts/en/USB2514B
+	6618	U30 readable
+		http://www.ti.com/product/DP83848K
+	6510	LDO (U53)
+		https://www.mouser.com/datasheet/2/146/SPX1117_DS_R210_082411-52780.pdf
+	6513	LVDS transceiver, analow switch, power switch (U60, U58, U61)
+		http://www.ti.com/product/SN65LVDS180
+		http://www.ti.com/lit/ds/symlink/sn74lvc1g3157.pdf
+		http://www.onsemi.com/PowerSolutions/product.do?id=FSUSB30
+	6522	quad opamp, DAC, analog mux (U5 U3, U1, U4)
+		http://www.ti.com/lit/ds/symlink/tlc274.pdf
+		http://www.analog.com/media/en/technical-documentation/data-sheets/AD5620_5640_5660.pdf
+		https://assets.nexperia.com/documents/data-sheet/74HC_HCT4051.pdf
+	6525	vreg (U52,  U48)
+		http://www.onsemi.com/PowerSolutions/product.do?id=MC7905
+		http://www.ti.com/product/TPS7A4501-SP
+	6527	LDO (U49)
+	6531	transceiver, octal driver (U68, U67, U29)
+		https://assets.nexperia.com/documents/data-sheet/74ALVC164245.pdf		http://www.ti.com/lit/ds/symlink/sn74lvc244a.pdf
+	6535	MCU (U101)
+		http://www.ti.com/lit/ds/symlink/msp430fr2311.pdf
+	6534	MOSFET ? (U40)
+		http://aosmd.com/pdfs/datasheet/AO4409.pdf
+	6540	vreg (U104)
+	6539	step-down converter (U55)
+		http://www.ti.com/product/TPS5430
+	6543	analog block (power ?)
+	6545	? (U45)
+	6559	ether passives
+	6562	buzzer
+	6588	U51
+
+	mystery shroud
+	6587	shrouded
+	6589	overview
+	6597	U62
+
+PCB removal
+	6563	FPC (J6)
+	6576	loosened
+	6565	FPC (J12)
+	6579	open
+	6584	cable
+	6604	screws
+	6600	front can
+	6611	BNC connectors
+
+front can
+	6614	inside
+	6615	outside
