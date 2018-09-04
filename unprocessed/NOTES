@@ -127,3 +127,23 @@ bottom panel
 	6678	PCB back
 	6681	button sheet
 	6684	PCB front
+
+Analog front-end, PCB front (facing scope back)
+	6685	overview
+	6689	details
+	6700	details upper half
+		shift, VGA, ADC driver (U6, UA4, UA3)
+		http://www.ti.com/lit/ds/symlink/sn74ahct595.pdf
+		http://www.analog.com/en/products/ad8370.html
+		http://www.analog.com/media/en/technical-documentation/data-sheets/ADA4932-1_4932-2.pdf
+		solid-state relay (UA1), opamp (UA2)
+		http://www.cosmo-ic.com/object/products/KAQY214.pdf
+		http://www.ti.com/product/OPA727
+	6706	lower half
+	6708	relays
+		http://www.worldproducts.com/pdfs/NEXEM/SignalRelays/NEXEM-Relay_UC2_UD2.pdf
+
+Analog front-end, PCB back (facing scope front)
+	6709	overview
+	6712	peek under can border
+	6719	details
